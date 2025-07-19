@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # QGIS + Jupyter Integration (Windows, QGIS 3.36.2)
 
 This repository shows how to run **QGIS inside Jupyter notebooks** using a Conda environment.  
@@ -50,3 +51,6 @@ To make this work, you must use the **same Python version that your QGIS install
    QGIS initialized successfully: <QgsProject object at ...>
    Layer valid: True
    Features in layer: 1
+=======
+"# Porphyry_Targeting_BCRegional" 
+>>>>>>> 4103e1f (first commit)
