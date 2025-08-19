@@ -2,7 +2,6 @@
 import sys
 import os
 from pathlib import Path
-from qgis.core import QgsApplication, QgsProject
 
 def initialize_qgis():
     try:
@@ -16,7 +15,9 @@ def initialize_qgis():
         # Add QGIS DLL directory
         if sys.platform == "win32":
             os.add_dll_directory(str(qgis_path / "bin"))
-        
+
+        #Import QGIS modules
+        from qgis.core import QgsApplication, QgsProject
         # Initialize QGIS
         QgsApplication.setPrefixPath(str(qgis_path / "apps" / "qgis"), True)
         qgs = QgsApplication([], False)
