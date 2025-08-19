@@ -42,3 +42,11 @@ To make this work, you must use the **same Python version that your QGIS install
 4. **Launch Jupyter**  
    ```bash
    jupyter notebook
+
+5. **Test the setup**
+   - Open [notebooks/qgis_test.ipynb](notebooks/qgis_test.ipynb) and run all cells.
+   - Expected output:
+   ```python
+   QGIS initialized successfully: <QgsProject object at ...>
+   Layer valid: True
+   Features in layer: 1
