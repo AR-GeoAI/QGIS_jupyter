@@ -1,10 +1,7 @@
-### 2. `environment.yml`
-
-yaml
 name: qgis-jupyter
 channels:
   - conda-forge
 dependencies:
-  - python=3.12
+  - python=3.12  # Match QGIS's Python version
   - notebook
   - ipykernel
