@@ -1,0 +1,10 @@
+### 2. `environment.yml`
+
+yaml
+name: qgis-jupyter
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - notebook
+  - ipykernel
