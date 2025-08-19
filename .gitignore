@@ -11,3 +11,6 @@
 #Ignore temporary notebook files
 *~.ipynb
 *.ipynb~
+
+#Ignore generated files
+outputs/
