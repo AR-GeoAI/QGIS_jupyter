@@ -19,6 +19,7 @@ def initialize_qgis():
         #Import QGIS modules
         from qgis.core import QgsApplication, QgsProject
         # Initialize QGIS
+        from qgis.core import QgsApplication, QgsProject
         QgsApplication.setPrefixPath(str(qgis_path / "apps" / "qgis"), True)
         qgs = QgsApplication([], False)
         qgs.initQgis()
@@ -31,3 +32,6 @@ def initialize_qgis():
 
 if __name__ == "__main__":
     initialize_qgis()
+
+import sys
+import os
